@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
 
-const server = app.listen(3000, () => console.log("server running"));
+const server = app.listen(4000, () => console.log("server running"));
 
 app.get("/", (req, res) => {
   res.send(
